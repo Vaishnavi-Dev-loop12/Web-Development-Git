@@ -1,0 +1,203 @@
+.MainDiv{
+  background-color: lightblue;
+}
+.nav{
+  color: black;
+  font-size: 30px;
+  font-style: italic;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: pink;
+  height: 80px;
+}
+
+.nav a{
+  background: darkblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.nav a:hover{
+  background: white;
+  font-size: 18px;
+  border-radius: 12spx;
+  color: black;
+}
+.Main_Information{
+  color: Blue;
+}
+.About_pizza{
+  text-align: center;
+  height: 900px;
+  background: lightgreen;
+}
+.table{
+  border-radius: 3px;
+  border: 3px Solid Black;
+}
+ .table .TableRow{
+  border-radius: 3px;
+  border: 4px solid black;
+}
+p{
+  font-style: italic;
+  font-size: 16px;
+}
+.TableRow p{
+  border: 2px solid black;
+}
+hr{
+  border: 2px solid  black;
+}
+.Images{
+  display: flex;
+  justify-content: center;
+}
+.order{
+  margin: 0;
+  padding-left: 250px;;
+  text-align: center;
+  font-size: 35px;
+}
+.About_The_Information{
+  background: tomato;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+.About_The_Information a{
+  color: blue;
+  font-size: 15px;
+  border: 2px solid black;
+  list-style: inherit;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 5px;
+}
+.About_The_Information a:hover{
+  background: pink;
+  color: black;
+}
+
+.PizzaPhotos{
+  padding-bottom: 4px;
+}
+.Footer{
+  height: 150px;
+  background: gray;
+}
+.reviews{
+  display: flex;
+  justify-content: space-around;
+  border: 3px;
+}
+
+
+
+/* Login of The web Page */
+.Login{
+  height: 400px;
+  border: 5px solid black;
+  background: lightgreen;
+  padding: 100px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.Field-Set{
+  height: 375px;
+  background: lightpink;
+}
+label{
+  font-size: 25px ;
+  font-style: oblique bold;
+}
+
+input[type=text]{
+  padding: 14px;
+  background: lightgreen;
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right:
+}
+input[type=password]{
+  padding: 14px;
+  background: lightgreen;
+  border-radius: 8px;
+}
+button{
+  background: Black;
+  color: white;
+  padding-left:30px;
+  padding-right: 30px;
+  border: 3px solid white;
+  font-style: italic bold;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 20px;
+}
+button:hover{
+  background: blue;
+  border-radius: 12px;
+}
+
+/* Order of the web page */
+
+.Order{
+  height: 700px;
+  background: lightgreen;
+  padding: 30px;
+  border-radius: 18px;
+}
+.Input {
+  padding: 14px;
+  background: lightgreen;
+  border-radius: 8px;
+}
+/* Menu of the Page */
+.Menu{
+  height: 620px;
+  background: lightpink;
+  border-radius: 20px;
+}
+table{
+  border: 3px solid black;
+  background: lightpink;
+  font-size: 25px;
+  font-style: oblique;
+
+}
+td{
+  border: 2px solid black;;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.Ordernow{
+  color: black;
+  font-size: 30px;
+  font-style: italic;
+  height: 80px;
+
+}
+
+/* Singin */
+.Singin{
+  height: 400px;
+  border: 3px solid black;
+  background: lightgreen;
+  padding: 100px;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+.Field-Set1{
+  height: 420px;
+  background: lightpink;
+}

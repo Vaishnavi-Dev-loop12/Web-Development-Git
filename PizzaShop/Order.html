@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizza Delivery Shop</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+    <div class="MainDiv">
+      <!-- Header -->
+      <header class="Header">
+        <nav class="nav">
+          <div >
+
+           <img src="pizzaSlice.png" alt="The piza slice">
+
+         </div>
+         <a href="Index.html">Home</a>
+         <a href="Login.html">Login</a>
+         <a href="Singin.html">Singin</a>
+         <a href="Order.html">Order</a>
+         <a href="Menu.html">Menu</a>
+        </nav>
+      </header>
+      <div class="Main_Information">
+        <center><h1>Lets Eat Pizza</h1></center>
+      </div>
+<!-- Order -->
+
+<div class="Order">
+  <fieldset>
+      <legend>
+        <h1>Order Details</h1>
+      </legend>
+      <form class="OrderForm" action="index.html" method="get">
+        <div>
+          <h3>Select the delivery type: </h3>
+          <label for="Pictup">
+          <input type="radio" name="OrderType" value="Picup">Picup</label><br>
+          <label for="Delivery">
+          <input type="radio" name="OrderType" value="Delivery">Delivery</label><br>
+        </div>
+        <div class="Contact-Information">
+          <h3>Contact Information:</h3>
+          <label for="Name">Name
+          <input class="Input" type="text" name="Name" value="Name" required></label>
+          <br>
+          <br>
+          <label for="Contact">Number
+          <input  class="Input"type="number" name="Number" value="Number" placeholder="00000000" required></label>
+          <br>
+          <br>
+          <label for="Email">Email
+          <input class="Input" type="email" name="Email" value="Email" placeholder="abc@gmail.com" required></label>
+          <br>
+          <br>
+          <label for="Address">Adress
+          <input  class="Input"type="text" name="Address" value="Address" placeholder="Address" required></label>
+          <br>
+          <br>
+          <label for="Pizza-list">
+           select PizzaType:
+           <input  class="Input"list="Pizza-types" name="Pizzas"id="Pizzas" required>
+           <datalist id="Pizza-types">
+               <option value="Veg">
+               <option value="Non Veg">
+               <option value="Veg Loaded">
+               <option value="Chiken">
+               <option value="Today Special">
+               <option value="Normal">
+           </datalist>
+          </label>
+          <br>
+          <br>
+          <a href="Menu.html">
+          <button type="button" name="button">Place Order</button>
+          </a>
+        </div>
+      </form>
+  </fieldset>
+</div>
+
+
+      <!-- Footer -->
+    <footer class="Footer">
+      <div class="customer_reviews">
+        <div class="reviews">
+          <div >
+            <h2>Good tast </h2>
+            <h2> Keep Doing</h2>
+            <h2> Delivery is good</h2>
+          </div>
+          <div>
+            <h2>Nice flawors </h2>
+            <h2>Maked my day Tasty
+            <h2>Verry yammi</h2>
+          </div>
+          <div>
+            <h2>Nice flawors </h2>
+            <h2>Maked my day Tasty</h2>
+            <h2>Verry yammi</h2>
+         </div>
+      </div>
+      <br><br>
+    </footer>
+
+  </body>
+</html>
