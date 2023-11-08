@@ -1,6 +1,6 @@
 This is My Repository of web development
 ----------------------------------------
 These are the projects
-1. 
-2.
+1. Pizza Delivery shop
+2. Learn Tech Web Page
 3. 
