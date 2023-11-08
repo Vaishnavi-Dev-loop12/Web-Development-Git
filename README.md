@@ -1,3 +1,3 @@
 # Web-Development-Git
-The pizza delivery shop
-The eddtech Web Page
+1. The pizza delivery shop,
+2. The eddtech Web Page,
